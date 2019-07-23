@@ -1,0 +1,222 @@
+* { margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+
+}
+body{} 
+.full-box { width: 100%; 				
+ }
+.box { width:1200px;
+		  margin:0 auto;
+}
+
+/***common css ends***/
+
+/*** Main Section part start***/
+
+.main-section { background-position: center;
+                background:url(../images/banner.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height:1200px;
+}
+.main-section-overlay { background:#00BFFF;
+                        opacity: 0.5;
+ }
+.main-part  {height: 1200px;}
+
+/*** Main Section part ends***/
+
+/*** Sign  up header part start***/
+
+.sign-up-form-section {height: 100px;
+                       background:;
+}
+.sign-up{height: 100px;
+}
+.sign-up .header { height: 100px;
+                   
+}
+.sign-up .header> nav ul { list-style: none;
+                            display: flex;
+                            justify-content:center;
+ }                       
+.sign-up .header> nav ul a { text-decoration: none;
+
+}
+.sign-up .header > nav li {}
+
+.sign-up .header > nav li a  { color:#FFFFFF;
+                              text-transform:uppercase; 
+                              padding:0 20px;
+                              line-height: 100px;
+                              font-family: 'Roboto', sans-serif;
+                              font-size: 18px;
+                              font-weight:500;
+                              display: block; 
+                              transition:all linear 0.4s;                                                                                   
+}
+.sign-up .header > nav li a:hover { background:#00008B;
+                                    color:white;
+}
+.sign-up .header > nav li a img { max-width: 100%;
+                                  height:100px;
+                                  display: block;
+}
+/*** Sign  up header part ends***/
+
+/*** Sign  up left side part start***/
+form{
+    margin-left: 30px;
+}
+.sign-up-second-section { height:1000px;
+}
+.second-part  {  height:1000px;
+}
+.left-part .blank { height:100px;
+                   background: ;
+}
+.second-part  { height:1000px;
+                background:;
+                display:flex;
+ }
+ .second-part .left-part{ width:600px;
+                          height:1000px;
+                          background:#000080;
+                          border-radius: 15px;
+                          margin-top: 70px;
+}
+.second-part .left-part form input { margin:0 10px;
+                                     font-family: 'Roboto', sans-serif;
+                                     font-size: 15px;
+                                     padding:10px;
+                                     border-radius: 5px;
+}
+.second-part .left-part form input .submit{ background:; 
+}
+.second-part .left-part form b {  text-transform:capitalize;
+                                  font-family: 'Roboto', sans-serif;
+                                  font-size:15px;
+                                  font-weight: 500;
+                                  color:white;
+                                  margin-left:15px;
+}
+.second-part .left-part form button { padding:15px;
+                                      border-radius:35px;
+                                      width:150px;
+                                      font-family: 'Roboto', sans-serif; 
+                                      font-size: 18px;
+                                      font-weight: 500;
+                                      background:#00BFFF;
+                                      margin-right:20px;
+                                      transition: all linear 0.4s;
+
+}
+.second-part .left-part form .cancel { padding:15px;
+                                      border-radius:35px;
+                                      width:150px;
+                                      font-family: 'Roboto', sans-serif; 
+                                      font-size: 18px;
+                                      font-weight: 500;
+                                      background:#EE82EE;
+                                      margin-right:20px;
+}
+.second-part .left-part form .cancel a:{color:#191970;
+}
+.second-part .left-part form .cancel a:hover{color:#FFFFFF;
+}
+.second-part .left-part form button:hover{ background: #000080;
+ }
+.second-part .left-part form button a { text-decoration: none;
+                                        color:yellow;
+}
+.second-part .left-part form button a:hover { color: #FFFFFF;
+}
+.second-part .right-part{ width:600px;
+                          height:800px;
+                          background:;
+                          margin-top:170px;
+}
+.second-part .right-part .blank { height: 100px;
+                                  background:;
+}
+.second-part .right-part .book{ height:450px;
+                                width:300px;
+                                margin:0 150px;
+                                background:#7B68EE;
+                                text-align: center;
+                                border-radius:3px;
+}
+.second-part .right-part .book-overlay { background:#8A2BE2;
+                                         height:450px;
+}
+.second-part .right-part .book .circle-icon ul li a { font-size:10px;
+                                                      line-height:80px;
+}
+.second-part .right-part .book h1 { padding-top:10px;
+                                    line-height:80px;
+                                    font-family: 'Yellowtail', cursive;
+                                    font-size: 40px;
+                                    color:#FFFFFF;
+ }
+ .second-part .right-part .book h2 { font-family: 'Satisfy', cursive;
+                                    font-size: 18px;
+                                    font-weight:400;
+                                    color:#FFFFFF;
+}
+.second-part .right-part .book hr {  margin-top:70px;
+                                     width:200px;
+                                     color:white;
+                                     margin-left:60px;
+}
+.second-part .right-part .book h3 { line-height:60px;
+                                    font-family: 'Oleo Script Swash Caps', cursive;
+                                    font-size:20px;
+                                    color:#FFFFFF;
+
+}
+.second-part .right-part .book ul { display: flex;
+                                    justify-content: center;
+                                    margin-top:50px;
+                                    list-style: none;
+}
+.second-part .right-part .book ul a { text-decoration: none;
+}
+.second-part .right-part .book ul li a {  padding:0 10px;
+                                          font-size: 30px;
+                                          color:#FFFFFF;
+                                          transition: all linear 0.4s;
+}
+.second-part .right-part .book ul li a:hover { color:#FF00FF;
+
+ }
+
+
+/*** Sign  up left side part ends***/
+
+/*** Sign  up footer part start***/
+
+.footer-section { height: 100px;
+                  background: #DDA0DD;
+}
+
+/*** Sign  up footer part ends***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
